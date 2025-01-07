@@ -1,0 +1,30 @@
+Package: tmap.hc
+Title: Extension for 'tmap': maps are shown via highcharter
+Type: Package
+LazyData: true
+Authors@R: c(
+	person("Martijn", "Tennekes", email = "mtennekes@gmail.com", role = c("aut", "cre"))
+	)
+Description: Extension package for tmap, which adds an additional mode, namely hc.
+License: GPL-3
+Version: 0.1
+Date: 2025-01-04
+Encoding: UTF-8
+Depends:
+    R (>= 3.5.0),
+Imports:
+    tmap (>= 3.99),
+    highcharter,
+    rlang,
+    data.table,
+    grDevices,
+    colorspace,
+    htmltools,
+    htmlwidgets,
+    leafsync,
+    sf,
+    tmaptools,
+    units
+URL: https://github.com/r-tmap/tmap.deckgl
+BugReports: https://github.com/r-tmap/deckgl/issues
+RoxygenNote: 7.3.2
